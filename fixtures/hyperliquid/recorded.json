@@ -1,0 +1,1408 @@
+{
+ "recordedAt": "2026-10-18T22:14:58.708Z",
+ "recordedWith": "scripts/record-hyperliquid.ts",
+ "note": "Public Hyperliquid responses, trimmed. Account addresses are fake; positions are real values read at recordedAt.",
+ "accounts": [
+  "0x00000000000000000000000000000000000000a1",
+  "0x00000000000000000000000000000000000000a2",
+  "0x00000000000000000000000000000000000000a3",
+  "0x00000000000000000000000000000000000000a4"
+ ],
+ "candles": {
+  "coin": "BTC",
+  "interval": "1h",
+  "startTime": 1792274400000,
+  "endTime": 1792360800000
+ },
+ "exchanges": [
+  {
+   "request": {
+    "type": "metaAndAssetCtxs"
+   },
+   "response": [
+    {
+     "universe": [
+      {
+       "szDecimals": 5,
+       "name": "BTC",
+       "maxLeverage": 40,
+       "marginTableId": 56
+      },
+      {
+       "szDecimals": 4,
+       "name": "ETH",
+       "maxLeverage": 25,
+       "marginTableId": 55
+      },
+      {
+       "szDecimals": 2,
+       "name": "SOL",
+       "maxLeverage": 20,
+       "marginTableId": 54
+      },
+      {
+       "szDecimals": 3,
+       "name": "BNB",
+       "maxLeverage": 10,
+       "marginTableId": 51
+      },
+      {
+       "szDecimals": 2,
+       "name": "LTC",
+       "maxLeverage": 10,
+       "marginTableId": 52
+      },
+      {
+       "szDecimals": 1,
+       "name": "ARB",
+       "maxLeverage": 10,
+       "marginTableId": 51
+      },
+      {
+       "szDecimals": 1,
+       "name": "INJ",
+       "maxLeverage": 5,
+       "marginTableId": 5
+      },
+      {
+       "szDecimals": 0,
+       "name": "kPEPE",
+       "maxLeverage": 10,
+       "marginTableId": 52
+      },
+      {
+       "szDecimals": 1,
+       "name": "CRV",
+       "maxLeverage": 10,
+       "marginTableId": 52
+      },
+      {
+       "szDecimals": 1,
+       "name": "WLD",
+       "maxLeverage": 10,
+       "marginTableId": 52
+      },
+      {
+       "szDecimals": 1,
+       "name": "GRASS",
+       "maxLeverage": 3,
+       "marginTableId": 3
+      },
+      {
+       "szDecimals": 2,
+       "name": "HYPE",
+       "maxLeverage": 10,
+       "marginTableId": 52
+      },
+      {
+       "szDecimals": 0,
+       "name": "PUMP",
+       "maxLeverage": 10,
+       "marginTableId": 52
+      },
+      {
+       "szDecimals": 0,
+       "name": "MON",
+       "maxLeverage": 5,
+       "marginTableId": 5
+      },
+      {
+       "szDecimals": 0,
+       "name": "MEGA",
+       "maxLeverage": 3,
+       "marginTableId": 3
+      },
+      {
+       "szDecimals": 0,
+       "name": "LIT",
+       "maxLeverage": 5,
+       "marginTableId": 5
+      },
+      {
+       "szDecimals": 0,
+       "name": "CASHCAT",
+       "maxLeverage": 3,
+       "marginTableId": 3
+      }
+     ],
+     "marginTables": [
+      [
+       51,
+       {
+        "description": "tiered 10x",
+        "marginTiers": [
+         {
+          "lowerBound": "0.0",
+          "maxLeverage": 10
+         },
+         {
+          "lowerBound": "3000000.0",
+          "maxLeverage": 5
+         }
+        ]
+       }
+      ],
+      [
+       52,
+       {
+        "description": "tiered 10x (2)",
+        "marginTiers": [
+         {
+          "lowerBound": "0.0",
+          "maxLeverage": 10
+         },
+         {
+          "lowerBound": "20000000.0",
+          "maxLeverage": 5
+         }
+        ]
+       }
+      ],
+      [
+       54,
+       {
+        "description": "tiered 20x (2)",
+        "marginTiers": [
+         {
+          "lowerBound": "0.0",
+          "maxLeverage": 20
+         },
+         {
+          "lowerBound": "70000000.0",
+          "maxLeverage": 10
+         }
+        ]
+       }
+      ],
+      [
+       55,
+       {
+        "description": "tiered 25x",
+        "marginTiers": [
+         {
+          "lowerBound": "0.0",
+          "maxLeverage": 25
+         },
+         {
+          "lowerBound": "100000000.0",
+          "maxLeverage": 15
+         }
+        ]
+       }
+      ],
+      [
+       56,
+       {
+        "description": "tiered 40x",
+        "marginTiers": [
+         {
+          "lowerBound": "0.0",
+          "maxLeverage": 40
+         },
+         {
+          "lowerBound": "150000000.0",
+          "maxLeverage": 20
+         }
+        ]
+       }
+      ]
+     ]
+    },
+    [
+     {
+      "funding": "0.0000125",
+      "openInterest": "39515.51342",
+      "prevDayPx": "81314.0",
+      "dayNtlVlm": "1721983466.8985602856",
+      "premium": "-0.0009311671",
+      "oraclePx": "81618.0",
+      "markPx": "81583.0",
+      "midPx": "81541.5",
+      "impactPxs": [
+       "81541.0",
+       "81542.0"
+      ],
+      "dayBaseVlm": "21171.59308"
+     },
+     {
+      "funding": "0.0000008275",
+      "openInterest": "1077146.1797999996",
+      "prevDayPx": "2390.4",
+      "dayNtlVlm": "913624677.3080896139",
+      "premium": "-0.0008534708",
+      "oraclePx": "2390.24",
+      "markPx": "2389.1",
+      "midPx": "2388.15",
+      "impactPxs": [
+       "2388.1",
+       "2388.2"
+      ],
+      "dayBaseVlm": "384737.5428999997"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "5470611.3000000054",
+      "prevDayPx": "102.82",
+      "dayNtlVlm": "144216728.1364001036",
+      "premium": "-0.0006786234",
+      "oraclePx": "103.15",
+      "markPx": "103.1",
+      "midPx": "103.07",
+      "impactPxs": [
+       "103.06",
+       "103.08"
+      ],
+      "dayBaseVlm": "1407513.1199999978"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "61260.384",
+      "prevDayPx": "715.31",
+      "dayNtlVlm": "5853802.4056199994",
+      "premium": "-0.0004642538",
+      "oraclePx": "717.28",
+      "markPx": "717.09",
+      "midPx": "716.895",
+      "impactPxs": [
+       "716.805",
+       "716.947"
+      ],
+      "dayBaseVlm": "8193.31"
+     },
+     {
+      "funding": "0.0000098658",
+      "openInterest": "407144.7800000001",
+      "prevDayPx": "58.416",
+      "dayNtlVlm": "5194858.087249998",
+      "premium": "-0.0008005186",
+      "oraclePx": "58.4621",
+      "markPx": "58.4289",
+      "midPx": "58.412",
+      "impactPxs": [
+       "58.3912",
+       "58.4153"
+      ],
+      "dayBaseVlm": "89155.2"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "86779252.9999999851",
+      "prevDayPx": "0.17982",
+      "dayNtlVlm": "9535213.106513992",
+      "premium": "-0.0004379003",
+      "oraclePx": "0.18269",
+      "markPx": "0.18263",
+      "midPx": "0.18254",
+      "impactPxs": [
+       "0.18246",
+       "0.18261"
+      ],
+      "dayBaseVlm": "52892147.7000000328"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "995188.6000000002",
+      "prevDayPx": "8.5541",
+      "dayNtlVlm": "12669380.7456099968",
+      "premium": "-0.0007020977",
+      "oraclePx": "8.1755",
+      "markPx": "8.1705",
+      "midPx": "8.16355",
+      "impactPxs": [
+       "8.15948",
+       "8.16976"
+      ],
+      "dayBaseVlm": "1530894.7999999998"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "6084173714.0",
+      "prevDayPx": "0.003861",
+      "dayNtlVlm": "7351502.0362350009",
+      "premium": "-0.0002537427",
+      "oraclePx": "0.003941",
+      "markPx": "0.003941",
+      "midPx": "0.003939",
+      "impactPxs": [
+       "0.003938",
+       "0.00394"
+      ],
+      "dayBaseVlm": "1903449626.0"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "56091980.1999999955",
+      "prevDayPx": "0.3436",
+      "dayNtlVlm": "4236178.6569520039",
+      "premium": "-0.0006991988",
+      "oraclePx": "0.34325",
+      "markPx": "0.34309",
+      "midPx": "0.34282",
+      "impactPxs": [
+       "0.3426",
+       "0.34301"
+      ],
+      "dayBaseVlm": "12535971.4000000004"
+     },
+     {
+      "funding": "0.0000089147",
+      "openInterest": "127515963.799999997",
+      "prevDayPx": "0.48721",
+      "dayNtlVlm": "21443047.8287270255",
+      "premium": "-0.0007566204",
+      "oraclePx": "0.4758",
+      "markPx": "0.47551",
+      "midPx": "0.47532",
+      "impactPxs": [
+       "0.47523",
+       "0.47544"
+      ],
+      "dayBaseVlm": "44383523.3000000417"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "46502100.0",
+      "prevDayPx": "0.61906",
+      "dayNtlVlm": "4933216.8078770032",
+      "premium": "-0.0002413876",
+      "oraclePx": "0.57998",
+      "markPx": "0.57977",
+      "midPx": "0.57947",
+      "impactPxs": [
+       "0.57843",
+       "0.57984"
+      ],
+      "dayBaseVlm": "8382070.7000000002"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "19950929.8799999878",
+      "prevDayPx": "78.23",
+      "dayNtlVlm": "256729954.7667298019",
+      "premium": "-0.0009369906",
+      "oraclePx": "77.909",
+      "markPx": "77.871",
+      "midPx": "77.8305",
+      "impactPxs": [
+       "77.8224",
+       "77.836"
+      ],
+      "dayBaseVlm": "3302811.7800000012"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "33880752314.0",
+      "prevDayPx": "0.004353",
+      "dayNtlVlm": "178151583.2057739794",
+      "premium": "-0.0004934616",
+      "oraclePx": "0.004053",
+      "markPx": "0.004051",
+      "midPx": "0.00405",
+      "impactPxs": [
+       "0.004048",
+       "0.004051"
+      ],
+      "dayBaseVlm": "42928473023.0"
+     },
+     {
+      "funding": "-0.0000049196",
+      "openInterest": "1520834546.0",
+      "prevDayPx": "0.021686",
+      "dayNtlVlm": "7306777.9356600009",
+      "premium": "-0.0009026986",
+      "oraclePx": "0.021048",
+      "markPx": "0.021023",
+      "midPx": "0.021015",
+      "impactPxs": [
+       "0.021006",
+       "0.021029"
+      ],
+      "dayBaseVlm": "352825107.0"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "163569290.0",
+      "prevDayPx": "0.044883",
+      "dayNtlVlm": "954147.4505840002",
+      "premium": "0.0",
+      "oraclePx": "0.043045",
+      "markPx": "0.043015",
+      "midPx": "0.043",
+      "impactPxs": [
+       "0.042935",
+       "0.043046"
+      ],
+      "dayBaseVlm": "21921194.0"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "40783914.0",
+      "prevDayPx": "3.1172",
+      "dayNtlVlm": "16351658.3227000106",
+      "premium": "-0.000731732",
+      "oraclePx": "2.9683",
+      "markPx": "2.9665",
+      "midPx": "2.96425",
+      "impactPxs": [
+       "2.963336",
+       "2.966128"
+      ],
+      "dayBaseVlm": "5508135.0"
+     },
+     {
+      "funding": "0.0000125",
+      "openInterest": "219727760.0",
+      "prevDayPx": "0.1017",
+      "dayNtlVlm": "6430722.6118910052",
+      "premium": "0.0",
+      "oraclePx": "0.1045",
+      "markPx": "0.10449",
+      "midPx": "0.104445",
+      "impactPxs": [
+       "0.104221",
+       "0.104556"
+      ],
+      "dayBaseVlm": "62368867.0"
+     }
+    ]
+   ]
+  },
+  {
+   "request": {
+    "type": "allMids"
+   },
+   "response": {
+    "ARB": "0.18258",
+    "BNB": "717.02",
+    "BTC": "81577.5",
+    "CASHCAT": "0.104545",
+    "CRV": "0.34305",
+    "ETH": "2388.85",
+    "GRASS": "0.57958",
+    "HYPE": "77.835",
+    "INJ": "8.16735",
+    "LIT": "2.9652",
+    "LTC": "58.4225",
+    "MEGA": "0.043018",
+    "MON": "0.02102",
+    "PUMP": "0.00405",
+    "SOL": "103.095",
+    "WLD": "0.47552",
+    "kPEPE": "0.00394"
+   }
+  },
+  {
+   "request": {
+    "type": "clearinghouseState",
+    "user": "0x00000000000000000000000000000000000000a1"
+   },
+   "response": {
+    "marginSummary": {
+     "accountValue": "7940801.0605079997",
+     "totalNtlPos": "7941511.8926999997",
+     "totalRawUsd": "15882312.9532079995",
+     "totalMarginUsed": "7922397.3276190003"
+    },
+    "crossMarginSummary": {
+     "accountValue": "41487.820589",
+     "totalNtlPos": "379864.557",
+     "totalRawUsd": "421352.377589",
+     "totalMarginUsed": "23084.0877"
+    },
+    "crossMaintenanceMarginUsed": "10051.80705",
+    "withdrawable": "3501.364889",
+    "assetPositions": [
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "LIT",
+       "szi": "-2551077.0",
+       "leverage": {
+        "type": "isolated",
+        "value": 3,
+        "rawUsd": "15460960.5756189991"
+       },
+       "entryPx": "1.323484",
+       "positionValue": "7561647.3356999997",
+       "unrealizedPnl": "-4185335.2575119999",
+       "returnOnEquity": "-3.7188522511",
+       "liquidationPx": "5.5096019074",
+       "marginUsed": "7899313.2399190003",
+       "maxLeverage": 5,
+       "cumFunding": {
+        "allTime": "-458087.814494",
+        "sinceOpen": "-431361.348877",
+        "sinceChange": "3968.104297"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "ETH",
+       "szi": "-124.8",
+       "leverage": {
+        "type": "cross",
+        "value": 20
+       },
+       "entryPx": "2667.44",
+       "positionValue": "298047.36",
+       "unrealizedPnl": "34849.78796",
+       "returnOnEquity": "2.0937270369",
+       "liquidationPx": "21550.3240258296",
+       "marginUsed": "14902.368",
+       "maxLeverage": 25,
+       "cumFunding": {
+        "allTime": "-329.435271",
+        "sinceOpen": "-940.893722",
+        "sinceChange": "-940.893722"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "HYPE",
+       "szi": "-1051.0",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "90.3486",
+       "positionValue": "81817.197",
+       "unrealizedPnl": "13139.22516",
+       "returnOnEquity": "1.3837110604",
+       "liquidationPx": "2288.2241827212",
+       "marginUsed": "8181.7197",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "-365.978654",
+        "sinceOpen": "-365.978654",
+        "sinceChange": "-365.978654"
+       }
+      }
+     }
+    ],
+    "time": 1792361698952
+   }
+  },
+  {
+   "request": {
+    "type": "clearinghouseState",
+    "user": "0x00000000000000000000000000000000000000a2"
+   },
+   "response": {
+    "marginSummary": {
+     "accountValue": "32935490.1732299998",
+     "totalNtlPos": "68961822.7631849945",
+     "totalRawUsd": "80114212.977312997",
+     "totalMarginUsed": "8433018.4230010007"
+    },
+    "crossMarginSummary": {
+     "accountValue": "32150813.0301669985",
+     "totalNtlPos": "68246021.2979049981",
+     "totalRawUsd": "78613734.3689700067",
+     "totalMarginUsed": "7648341.2799380003"
+    },
+    "crossMaintenanceMarginUsed": "2710125.1774289999",
+    "withdrawable": "19531750.5407579988",
+    "assetPositions": [
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "CASHCAT",
+       "szi": "-6851086.0",
+       "leverage": {
+        "type": "isolated",
+        "value": 1,
+        "rawUsd": "1500478.6083430001"
+       },
+       "entryPx": "0.109381",
+       "positionValue": "715801.46528",
+       "unrealizedPnl": "33580.454769",
+       "returnOnEquity": "0.0448108686",
+       "liquidationPx": "0.1877256425",
+       "marginUsed": "784677.1430630001",
+       "maxLeverage": 3,
+       "cumFunding": {
+        "allTime": "-120074.788158",
+        "sinceOpen": "-120041.660383",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "ETH",
+       "szi": "-8190.5876",
+       "leverage": {
+        "type": "cross",
+        "value": 15
+       },
+       "entryPx": "2377.48",
+       "positionValue": "19560761.3063200004",
+       "unrealizedPnl": "-87764.435425",
+       "returnOnEquity": "-0.0676047216",
+       "liquidationPx": "5912.174209551",
+       "marginUsed": "1304050.7537539999",
+       "maxLeverage": 25,
+       "cumFunding": {
+        "allTime": "-8334231.3802209999",
+        "sinceOpen": "-569977.762448",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "SOL",
+       "szi": "-115333.1",
+       "leverage": {
+        "type": "cross",
+        "value": 20
+       },
+       "entryPx": "104.6899",
+       "positionValue": "11887382.6170000006",
+       "unrealizedPnl": "186837.264394",
+       "returnOnEquity": "0.3094813019",
+       "liquidationPx": "352.1105815447",
+       "marginUsed": "594369.13085",
+       "maxLeverage": 20,
+       "cumFunding": {
+        "allTime": "-2587979.500823",
+        "sinceOpen": "-368949.56277",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "BNB",
+       "szi": "-2093.553",
+       "leverage": {
+        "type": "cross",
+        "value": 5
+       },
+       "entryPx": "727.707",
+       "positionValue": "1500784.4035799999",
+       "unrealizedPnl": "22710.035706",
+       "returnOnEquity": "0.0745327161",
+       "liquidationPx": "13533.5442911457",
+       "marginUsed": "300156.880716",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "-153999.206967",
+        "sinceOpen": "-30293.127012",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "LTC",
+       "szi": "-2583.05",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "62.0847",
+       "positionValue": "150888.86575",
+       "unrealizedPnl": "9479.149311",
+       "returnOnEquity": "0.5910872756",
+       "liquidationPx": "10769.2003152633",
+       "marginUsed": "15088.886575",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "-153911.887573",
+        "sinceOpen": "-52428.956611",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "ARB",
+       "szi": "-2355783.0",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "0.18187",
+       "positionValue": "430024.62882",
+       "unrealizedPnl": "-1565.371846",
+       "returnOnEquity": "-0.0365349055",
+       "liquidationPx": "11.593216937",
+       "marginUsed": "43002.462882",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "-52348.889365",
+        "sinceOpen": "-55.603268",
+        "sinceChange": "0.0"
+       }
+      }
+     }
+    ],
+    "time": 1792361699010
+   }
+  },
+  {
+   "request": {
+    "type": "clearinghouseState",
+    "user": "0x00000000000000000000000000000000000000a3"
+   },
+   "response": {
+    "marginSummary": {
+     "accountValue": "491747.140607",
+     "totalNtlPos": "2091087.2199270001",
+     "totalRawUsd": "-69113.9685",
+     "totalMarginUsed": "250742.372684"
+    },
+    "crossMarginSummary": {
+     "accountValue": "491744.80165",
+     "totalNtlPos": "2091080.5111469999",
+     "totalRawUsd": "-69109.598677",
+     "totalMarginUsed": "250740.033727"
+    },
+    "crossMaintenanceMarginUsed": "125370.016855",
+    "withdrawable": "170393.269555",
+    "assetPositions": [
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "MEGA",
+       "szi": "156.0",
+       "leverage": {
+        "type": "isolated",
+        "value": 3,
+        "rawUsd": "-4.369823"
+       },
+       "entryPx": "0.041945",
+       "positionValue": "6.70878",
+       "unrealizedPnl": "0.16536",
+       "returnOnEquity": "0.0758135654",
+       "liquidationPx": "0.0336140231",
+       "marginUsed": "2.338957",
+       "maxLeverage": 3,
+       "cumFunding": {
+        "allTime": "-494.909848",
+        "sinceOpen": "0.000245",
+        "sinceChange": "0.000245"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "ETH",
+       "szi": "-52.2154",
+       "leverage": {
+        "type": "cross",
+        "value": 25
+       },
+       "entryPx": "2361.77",
+       "positionValue": "124700.81828",
+       "unrealizedPnl": "-1379.800288",
+       "returnOnEquity": "-0.2797171785",
+       "liquidationPx": "9267.2235349094",
+       "marginUsed": "4988.032731",
+       "maxLeverage": 25,
+       "cumFunding": {
+        "allTime": "-9996.923465",
+        "sinceOpen": "4.130015",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "SOL",
+       "szi": "-1221.51",
+       "leverage": {
+        "type": "cross",
+        "value": 20
+       },
+       "entryPx": "102.267",
+       "positionValue": "125901.0357",
+       "unrealizedPnl": "-980.781797",
+       "returnOnEquity": "-0.1570252647",
+       "liquidationPx": "395.6904570029",
+       "marginUsed": "6295.051785",
+       "maxLeverage": 20,
+       "cumFunding": {
+        "allTime": "-1262.31844",
+        "sinceOpen": "3.520896",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "ARB",
+       "szi": "-333219.0",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "0.17988",
+       "positionValue": "60825.79626",
+       "unrealizedPnl": "-883.160914",
+       "returnOnEquity": "-0.1473343487",
+       "liquidationPx": "1.2296842699",
+       "marginUsed": "6082.579626",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "-9.258551",
+        "sinceOpen": "-6.711742",
+        "sinceChange": "-0.747951"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "kPEPE",
+       "szi": "-41875.0",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "0.003933",
+       "positionValue": "164.945625",
+       "unrealizedPnl": "-0.25125",
+       "returnOnEquity": "-0.0152555301",
+       "liquidationPx": "8.3365567068",
+       "marginUsed": "16.494562",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "284.979225",
+        "sinceOpen": "0.0",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "CRV",
+       "szi": "-97125.4",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "0.33769",
+       "positionValue": "33301.385898",
+       "unrealizedPnl": "-502.738966",
+       "returnOnEquity": "-0.1532803981",
+       "liquidationPx": "3.9354252582",
+       "marginUsed": "3330.138589",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "-1303.333599",
+        "sinceOpen": "-64.495301",
+        "sinceChange": "0.0"
+       }
+      }
+     }
+    ],
+    "time": 1792361699157
+   }
+  },
+  {
+   "request": {
+    "type": "clearinghouseState",
+    "user": "0x00000000000000000000000000000000000000a4"
+   },
+   "response": {
+    "marginSummary": {
+     "accountValue": "124881.706895",
+     "totalNtlPos": "1041971.770072",
+     "totalRawUsd": "-682452.211937",
+     "totalMarginUsed": "125542.343086"
+    },
+    "crossMarginSummary": {
+     "accountValue": "124881.706895",
+     "totalNtlPos": "1041971.770072",
+     "totalRawUsd": "-682452.211937",
+     "totalMarginUsed": "125542.343086"
+    },
+    "crossMaintenanceMarginUsed": "62771.171542",
+    "withdrawable": "0.0",
+    "assetPositions": [
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "INJ",
+       "szi": "-14365.7",
+       "leverage": {
+        "type": "cross",
+        "value": 5
+       },
+       "entryPx": "8.4057",
+       "positionValue": "117318.92562",
+       "unrealizedPnl": "3434.92765",
+       "returnOnEquity": "0.1422284903",
+       "liquidationPx": "462.9877738065",
+       "marginUsed": "23463.785124",
+       "maxLeverage": 5,
+       "cumFunding": {
+        "allTime": "-145.443384",
+        "sinceOpen": "-145.443384",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "WLD",
+       "szi": "240931.4",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "0.4749",
+       "positionValue": "114524.331676",
+       "unrealizedPnl": "104.210768",
+       "returnOnEquity": "0.009107731",
+       "liquidationPx": null,
+       "marginUsed": "11452.433167",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "-9.227226",
+        "sinceOpen": "-9.227226",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "GRASS",
+       "szi": "53963.3",
+       "leverage": {
+        "type": "cross",
+        "value": 3
+       },
+       "entryPx": "0.57629",
+       "positionValue": "31267.415286",
+       "unrealizedPnl": "168.71595",
+       "returnOnEquity": "0.0162755312",
+       "liquidationPx": null,
+       "marginUsed": "10422.471762",
+       "maxLeverage": 3,
+       "cumFunding": {
+        "allTime": "0.074747",
+        "sinceOpen": "0.074747",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "PUMP",
+       "szi": "186589053.0",
+       "leverage": {
+        "type": "cross",
+        "value": 10
+       },
+       "entryPx": "0.004227",
+       "positionValue": "755685.66465",
+       "unrealizedPnl": "-33055.459538",
+       "returnOnEquity": "-0.4190913663",
+       "liquidationPx": null,
+       "marginUsed": "75568.566465",
+       "maxLeverage": 10,
+       "cumFunding": {
+        "allTime": "227.341523",
+        "sinceOpen": "227.341523",
+        "sinceChange": "0.0"
+       }
+      }
+     },
+     {
+      "type": "oneWay",
+      "position": {
+       "coin": "MON",
+       "szi": "1102542.0",
+       "leverage": {
+        "type": "cross",
+        "value": 5
+       },
+       "entryPx": "0.023405",
+       "positionValue": "23175.43284",
+       "unrealizedPnl": "-2629.613627",
+       "returnOnEquity": "-0.509515383",
+       "liquidationPx": null,
+       "marginUsed": "4635.086568",
+       "maxLeverage": 5,
+       "cumFunding": {
+        "allTime": "-165.410477",
+        "sinceOpen": "-165.410477",
+        "sinceChange": "0.0"
+       }
+      }
+     }
+    ],
+    "time": 1792361699299
+   }
+  },
+  {
+   "request": {
+    "type": "spotClearinghouseState",
+    "user": "0x00000000000000000000000000000000000000a1"
+   },
+   "response": {
+    "balances": [
+     {
+      "coin": "USDC",
+      "token": 0,
+      "total": "10507094.2415948715",
+      "hold": "8333468.3322029999",
+      "entryNtl": "0.0"
+     },
+     {
+      "coin": "HYPE",
+      "token": 150,
+      "total": "0.21817854",
+      "hold": "0.0",
+      "entryNtl": "5.4762813"
+     },
+     {
+      "coin": "MAX",
+      "token": 734,
+      "total": "10459120.0305979997",
+      "hold": "0.0",
+      "entryNtl": "0.0"
+     }
+    ],
+    "tokenToAvailableAfterMaintenance": [
+     [
+      0,
+      "2439261.73999287"
+     ]
+    ]
+   }
+  },
+  {
+   "request": {
+    "type": "candleSnapshot",
+    "req": {
+     "coin": "BTC",
+     "interval": "1h",
+     "startTime": 1792274400000,
+     "endTime": 1792360800000
+    }
+   },
+   "response": [
+    {
+     "t": 1792274400000,
+     "T": 1792277999999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81103.0",
+     "c": "81312.0",
+     "h": "81426.0",
+     "l": "81103.0",
+     "v": "578.48819",
+     "n": 8383
+    },
+    {
+     "t": 1792278000000,
+     "T": 1792281599999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81313.0",
+     "c": "81451.0",
+     "h": "81451.0",
+     "l": "81182.0",
+     "v": "216.85602",
+     "n": 5799
+    },
+    {
+     "t": 1792281600000,
+     "T": 1792285199999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81451.0",
+     "c": "81505.0",
+     "h": "81550.0",
+     "l": "81358.0",
+     "v": "302.40864",
+     "n": 6052
+    },
+    {
+     "t": 1792285200000,
+     "T": 1792288799999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81506.0",
+     "c": "81620.0",
+     "h": "81878.0",
+     "l": "81482.0",
+     "v": "1233.53011",
+     "n": 9995
+    },
+    {
+     "t": 1792288800000,
+     "T": 1792292399999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81621.0",
+     "c": "81785.0",
+     "h": "81802.0",
+     "l": "81550.0",
+     "v": "535.2717",
+     "n": 6237
+    },
+    {
+     "t": 1792292400000,
+     "T": 1792295999999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81785.0",
+     "c": "81913.0",
+     "h": "82043.0",
+     "l": "81724.0",
+     "v": "636.99374",
+     "n": 7626
+    },
+    {
+     "t": 1792296000000,
+     "T": 1792299599999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81914.0",
+     "c": "81756.0",
+     "h": "81914.0",
+     "l": "81744.0",
+     "v": "275.09838",
+     "n": 5036
+    },
+    {
+     "t": 1792299600000,
+     "T": 1792303199999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81757.0",
+     "c": "81697.0",
+     "h": "81839.0",
+     "l": "81632.0",
+     "v": "333.98872",
+     "n": 5050
+    },
+    {
+     "t": 1792303200000,
+     "T": 1792306799999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81697.0",
+     "c": "81689.0",
+     "h": "81756.0",
+     "l": "81643.0",
+     "v": "193.57944",
+     "n": 4753
+    },
+    {
+     "t": 1792306800000,
+     "T": 1792310399999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81690.0",
+     "c": "81634.0",
+     "h": "81733.0",
+     "l": "81584.0",
+     "v": "159.76135",
+     "n": 4342
+    },
+    {
+     "t": 1792310400000,
+     "T": 1792313999999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81635.0",
+     "c": "81686.0",
+     "h": "81730.0",
+     "l": "81612.0",
+     "v": "235.013",
+     "n": 5617
+    },
+    {
+     "t": 1792314000000,
+     "T": 1792317599999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81687.0",
+     "c": "82109.0",
+     "h": "82268.0",
+     "l": "81686.0",
+     "v": "1126.90509",
+     "n": 14845
+    },
+    {
+     "t": 1792317600000,
+     "T": 1792321199999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "82110.0",
+     "c": "82049.0",
+     "h": "82222.0",
+     "l": "82039.0",
+     "v": "387.49518",
+     "n": 5939
+    },
+    {
+     "t": 1792321200000,
+     "T": 1792324799999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "82050.0",
+     "c": "82016.0",
+     "h": "82112.0",
+     "l": "81950.0",
+     "v": "430.25987",
+     "n": 5844
+    },
+    {
+     "t": 1792324800000,
+     "T": 1792328399999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "82016.0",
+     "c": "81939.0",
+     "h": "82082.0",
+     "l": "81870.0",
+     "v": "358.73028",
+     "n": 5826
+    },
+    {
+     "t": 1792328400000,
+     "T": 1792331999999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81939.0",
+     "c": "81496.0",
+     "h": "81939.0",
+     "l": "81264.0",
+     "v": "1546.97089",
+     "n": 13015
+    },
+    {
+     "t": 1792332000000,
+     "T": 1792335599999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81496.0",
+     "c": "81074.0",
+     "h": "81520.0",
+     "l": "81000.0",
+     "v": "1785.29751",
+     "n": 15168
+    },
+    {
+     "t": 1792335600000,
+     "T": 1792339199999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81073.0",
+     "c": "81152.0",
+     "h": "81207.0",
+     "l": "80970.0",
+     "v": "902.11693",
+     "n": 10525
+    },
+    {
+     "t": 1792339200000,
+     "T": 1792342799999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81151.0",
+     "c": "81030.0",
+     "h": "81219.0",
+     "l": "80982.0",
+     "v": "1162.13082",
+     "n": 10335
+    },
+    {
+     "t": 1792342800000,
+     "T": 1792346399999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81030.0",
+     "c": "81155.0",
+     "h": "81181.0",
+     "l": "81030.0",
+     "v": "571.98473",
+     "n": 5774
+    },
+    {
+     "t": 1792346400000,
+     "T": 1792349999999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81154.0",
+     "c": "81162.0",
+     "h": "81254.0",
+     "l": "81037.0",
+     "v": "1238.92068",
+     "n": 7765
+    },
+    {
+     "t": 1792350000000,
+     "T": 1792353599999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81155.0",
+     "c": "80834.0",
+     "h": "81156.0",
+     "l": "80751.0",
+     "v": "1845.32359",
+     "n": 15130
+    },
+    {
+     "t": 1792353600000,
+     "T": 1792357199999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "80834.0",
+     "c": "80932.0",
+     "h": "80963.0",
+     "l": "80644.0",
+     "v": "2108.67651",
+     "n": 16852
+    },
+    {
+     "t": 1792357200000,
+     "T": 1792360799999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "80931.0",
+     "c": "81191.0",
+     "h": "81226.0",
+     "l": "80866.0",
+     "v": "1402.02008",
+     "n": 12152
+    },
+    {
+     "t": 1792360800000,
+     "T": 1792364399999,
+     "s": "BTC",
+     "i": "1h",
+     "o": "81191.0",
+     "c": "81542.0",
+     "h": "81650.0",
+     "l": "81180.0",
+     "v": "1788.42133",
+     "n": 10469
+    }
+   ]
+  }
+ ]
+}
