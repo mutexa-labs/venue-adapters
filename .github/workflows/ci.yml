@@ -16,7 +16,7 @@ jobs:
       # Keep the store out of any node_modules path: git-hosted @mutexa deps build their .d.ts at install time, and
       # the declaration bundler treats files under node_modules as external.
       - run: pnpm config set store-dir ~/.pnpm-store
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: pnpm
