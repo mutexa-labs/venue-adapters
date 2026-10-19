@@ -1,6 +1,6 @@
 {
   "name": "@mutexa/venue-adapters",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "One read-only interface for perps and lending venues: Hyperliquid and Aave V3 adapters with validated requests, cached reads, venue-reported next to computed liquidation prices, and a conformance kit run against recorded fixtures.",
   "license": "MIT",
   "type": "module",

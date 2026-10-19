@@ -19,7 +19,7 @@ export type HyperliquidProxyOptions = HyperliquidClientOptions & {
   path?: string;
 };
 
-export function createHyperliquidProxy(opts: HyperliquidProxyOptions = {}) {
+export function createHyperliquidProxy(opts: HyperliquidProxyOptions = {}): Hono {
   const client = opts.client ?? createHyperliquidClient(opts);
   const app = new Hono();
   app.post(opts.path ?? "/info", async (c) => {
